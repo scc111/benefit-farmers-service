@@ -1,0 +1,129 @@
+.main_index{
+    height: 306px;
+    .nav_vertical{
+        float: left;
+        width: 248px;
+        position: relative;
+        .head{
+            height: 34px;
+            background: #339966;
+            color: #fff;
+            font: bold 16px/34px "微软雅黑"," Microsoft Yahei";
+            text-align: center;
+        }
+        .nav_left{
+            border-bottom: 1px solid #CCC;
+            border-right: 1px solid #CCC;
+            border-left: 1px solid #CCC;
+            ul{
+                .pic1{
+                    float: left;
+                    display: block;
+                    width: 15px;
+                    height: 20px;
+                    background: url(./../../assets/background.png) -27px -147px no-repeat;
+                    margin: 13px 15px 0 0;
+                }
+                .pic2{
+                    float: left;
+                    display: block;
+                    width: 14px;
+                    height: 16px;
+                    background: url(./../../assets/background.png) 0px -214px no-repeat;
+                    margin: 13px 15px 0 0;
+                }
+                .pic3{
+                    float: left;
+                    display: block;
+                    width: 13px;
+                    height: 14px;
+                    background: url(./../../assets/background.png) -51px -150px no-repeat;
+                    margin: 15px 15px 0 0;
+                }
+                .pic4{
+                    float: left;
+                    display: block;
+                    width: 19px;
+                    height: 22px;
+                    background: url(./../../assets/background.png) 0 -145px no-repeat;
+                    margin: 10px 10px 0 0;
+                }
+                .pic5{
+                    float: left;
+                    display: block;
+                    width: 15px;
+                    height: 16px;
+                    background: url(./../../assets/background.png) -42px -214px no-repeat;
+                    margin: 14px 15px 0 0;
+                }
+                .pic6{
+                    float: left;
+                    display: block;
+                    width: 14px;
+                    height: 16px;
+                    background: url(./../../assets/background.png) -65px -214px no-repeat;
+                    margin: 14px 15px 0 0;
+                }
+                li{
+                    list-style: none;
+                    height: 44px;
+                    line-height: 44px;
+                    font-size: 15px;
+                    border-bottom: 1px #ebebeb solid;
+                    font-weight: bold;
+                    padding-left: 90px;
+                    color: #000;
+                }
+            }
+        }
+    }
+    .main_index_center{
+        float: right;
+        width: 980px;
+        .nav_cross{
+            display: inline-block;
+            height: 32px;
+            position: relative;
+            overflow: hidden;
+            border-bottom: 2px #339966 solid;
+            ul{
+                li{
+                    float: left;
+                    font: bold 16px/32px "微软雅黑"," Microsoft Yahei";
+                    a{
+                        display: block;
+                        padding: 0 25px;
+                    }
+                    a:hover{
+                        color: #fff;
+                    }
+                    .ahover{
+                        background: #339966;
+                        color: #fff;
+                    }
+                    .active{
+                        color: #fb3e1d;
+                        padding:0 0 0 26px;
+                    }
+                    .active:hover{
+                        color: red;
+                        text-decoration: underline;
+                    }
+                }
+                li:nth-child(-n+7):hover{
+                    background: #339966;
+                }
+            }
+        }
+        .content{
+            float: left;
+            width: 980px;
+            .el-carousel__item{
+                img {
+                    width: 980px;
+                    height:272px;
+                  }
+            }
+        }
+    }
+}
