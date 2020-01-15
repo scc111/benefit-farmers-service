@@ -9,7 +9,7 @@
           <li v-for="(item,index) of verticalNavList"
               :key="index">
             <span :class="item.class"></span>
-            <a href="">{{item.name}}</a>
+            <a :href="item.url">{{item.name}}</a>
           </li>
         </ul>
       </div>
@@ -46,14 +46,13 @@ export default {
     return {
       verticalNavList: [
         { name: '粮 食', key: 'ls', class: 'pic1' },
-        { name: '干 果', key: 'sl', class: 'pic2' },
+        {
+          name: '干 果',
+          key: 'sl',
+          class: 'pic2',
+          url: 'http://localhost:8081/dryFruitDetail'
+        },
         { name: '水 果', key: 'yl', class: 'pic4' }
-        // { name: '粮 食', key: 'ls', class: 'pic1' },
-        // { name: '饲 料', key: 'sl', class: 'pic2' },
-        // { name: '油 料', key: 'yl', class: 'pic3' },
-        // { name: '水 果', key: 'sg', class: 'pic4' },
-        // { name: '蔬 菜', key: 'sc', class: 'pic5' },
-        // { name: '畜 牧', key: 'xm', class: 'pic6' }
       ],
       centerNavList: [
         { name: '首页', key: 'sy', class: 'ahover' },
