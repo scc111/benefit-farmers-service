@@ -50,7 +50,7 @@ export default {
           name: '干 果',
           key: 'sl',
           class: 'pic2',
-          url: 'http://localhost:8081/dryFruitDetail'
+          url: '/dryFruitDetail'
         },
         { name: '水 果', key: 'yl', class: 'pic4' }
       ],
