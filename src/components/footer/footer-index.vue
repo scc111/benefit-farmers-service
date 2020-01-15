@@ -20,7 +20,7 @@
         <img src="./../../assets/beian.gif" alt="">
         鲁公网安备 37030302000038号</a>
     </div>
-    <div class="text-c">
+    <!-- <div class="text-c">
       <a href=""><img src="./../../assets/p1.jpg" alt=""></a>
       <a href=""><img src="./../../assets/p2.gif" alt=""></a>
       <a href=""><img src="./../../assets/p3.jpg" alt=""></a>
@@ -32,7 +32,7 @@
       <a href=""><img src="./../../assets/p7.gif" alt=""></a>
       <a href=""><img src="./../../assets/p8.gif" alt=""></a>
       <a href=""><img src="./../../assets/p9.gif" alt=""></a>
-    </div>
+    </div> -->
   </div>
 </template>
 
