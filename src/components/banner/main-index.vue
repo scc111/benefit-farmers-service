@@ -48,7 +48,7 @@ export default {
         { name: '粮 食', key: 'ls', class: 'pic1' },
         {
           name: '干 果',
-          key: 'sl',
+          key: 'gg',
           class: 'pic2',
           url: '/dryFruitDetail'
         },

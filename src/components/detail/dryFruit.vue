@@ -25,7 +25,8 @@
          :key="index">
       <p class="content-title m-b-20">{{item.name}}</p>
       <div class="showimg m-b-20">
-        <img :src="item.src"
+        <img class="dryFruitImg"
+             :src="item.src"
              alt="">
       </div>
       <p class="content-text m-b-20">{{item.text}}</p>
