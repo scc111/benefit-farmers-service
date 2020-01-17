@@ -9,7 +9,7 @@
           <li v-for="(item,index) of verticalNavList"
               :key="index">
             <span :class="item.class"></span>
-            <a :href="item.url">{{item.name}}</a>
+            <router-link :to='item.url||""'>{{item.name}}</router-link>
           </li>
         </ul>
       </div>
@@ -20,6 +20,7 @@
           <li v-for="(item,index) of centerNavList"
               :key="index">
             <a :class="item.class"
+               @click.prevent="item.key==='about'?goAbout():''"
                href="">{{item.name}}</a>
           </li>
         </ul>
@@ -57,25 +58,20 @@ export default {
       centerNavList: [
         { name: '首页', key: 'sy', class: 'ahover' },
         { name: '产品特色', key: 'cpts', class: '' },
-        { name: '公司新闻', key: 'gsxw', class: '' },
+        { name: '关于我们', key: 'about', class: '' },
         { name: '建站', key: 'jz', class: '' },
         { name: '下载区', key: 'xzq', class: '' }
-        // {name:'惠农联盟',key:'hnlm',class:''},
-        // {name:'商家.商铺',key:'sj',class:''},
-        // {name:'供应',key:'gy',class:''},
-        // {name:'求购',key:'qg',class:''},
-        // {name:'价格',key:'jg',class:''},
-        // {name:'三农天地',key:'sntd',class:''},
-        // {name:'商讯',key:'sx',class:'active'},
-        // {name:'建站',key:'jz',class:'active'},
-        // {name:'微信建设',key:'wxjs',class:'active'},
-        // {name:'会员服务',key:'hyfw',class:'active'}
       ],
       bannerSrc: [
         { src: require('./../../assets/banner.png') },
         { src: require('./../../assets/banner.png') },
         { src: require('./../../assets/banner.png') }
       ]
+    }
+  },
+  methods: {
+    goAbout() {
+      this.$router.push({ name: 'about' })
     }
   }
 }

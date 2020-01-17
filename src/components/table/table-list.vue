@@ -28,7 +28,6 @@
               <span class="w100">{{item.date}}</span>
               <span class="w150">购买人 : {{item.user}}</span>
               <span>购买产品 : {{item.name}}</span>
-              <!-- <span class="w85 color">{{item.price}}</span> -->
             </li>
           </ul>
           <ul>
@@ -76,7 +75,6 @@ export default {
           date: '2019-12-10',
           name: '北疆红枣,葡萄干,野生核桃',
           user: '陈女士',
-          //   price: '30元/公斤,38元/公斤,30元/公斤',
           class: ''
         },
         {
@@ -138,6 +136,9 @@ export default {
         this.$refs.tableSelf.scrollTop = 0
       }
     }, 800)
+  },
+  beforeDestroy() {
+    clearInterval(this.timer)
   }
 }
 </script>
