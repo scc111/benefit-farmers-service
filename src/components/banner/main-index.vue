@@ -65,7 +65,14 @@ export default {
       bannerSrc: [
         { src: require('./../../assets/巴旦木.png') },
         { src: require('./../../assets/薄皮纸核桃.png') },
-        { src: require('./../../assets/碧根果.png') }
+        { src: require('./../../assets/碧根果.png') },
+        { src: require('./../../assets/达坂城蚕豆.png') },
+        { src: require('./../../assets/枸杞子.png') },
+        { src: require('./../../assets/开口笑小银杏.png') },
+        { src: require('./../../assets/沙漠果.png') },
+        { src: require('./../../assets/圣女果.png') },
+        { src: require('./../../assets/特级哈密大枣.png') },
+        { src: require('./../../assets/天山乌梅.png') }
       ]
     }
   },
