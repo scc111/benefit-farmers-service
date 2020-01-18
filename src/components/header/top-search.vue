@@ -1,8 +1,7 @@
 <template>
   <div class="top-search">
     <div class="logo">
-      <a href="" target="_self"></a>
-      <img src="./../../assets/logo.jpg" alt="农产品交易网">
+      <a href="" target="_self">西域电商</a>
     </div>
     <div class="search">
       <div class="search_tabs">

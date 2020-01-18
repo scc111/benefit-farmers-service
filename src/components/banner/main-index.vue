@@ -63,9 +63,9 @@ export default {
         { name: '下载区', key: 'xzq', class: '' }
       ],
       bannerSrc: [
-        { src: require('./../../assets/banner.png') },
-        { src: require('./../../assets/banner.png') },
-        { src: require('./../../assets/banner.png') }
+        { src: require('./../../assets/巴旦木.png') },
+        { src: require('./../../assets/薄皮纸核桃.png') },
+        { src: require('./../../assets/碧根果.png') }
       ]
     }
   },
