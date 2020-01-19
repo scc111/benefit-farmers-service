@@ -18,7 +18,7 @@
       </div>
     </div>
     <div class="tel">
-      <img src="./../../assets/tel.jpg" alt="联系电话">
+      <!-- <img src="./../../assets/tel.jpg" alt="联系电话"> -->
     </div>
   </div>
 

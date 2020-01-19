@@ -15,14 +15,14 @@
               <img src="./../../assets/mzsm.jpg" alt="">
           </a>
       </div>
-      <div class="green-food">
+      <!-- <div class="green-food">
         <div class="food-img"></div>
         <span class="name">粮食</span>
       </div>
         <div class="green-food">
         <div class="food-img feed"></div>
         <span class="name">饲料/油料</span>
-      </div>
+      </div> -->
   </div>
 </template>
 

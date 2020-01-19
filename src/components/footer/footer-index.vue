@@ -3,12 +3,13 @@
     <div class="footer">
       <div class="email">
         <div class="email-l">
-          <span>卓创资讯 - <a href="">惠农电商网</a></span>
-          <span class="color">客服专线：400-811-5599</span>
-          <span>传真：0533-6294000 邮箱：cuipl@sci99.com</span>
+          <span>西域电商网</span>
+          <!-- <span>卓创资讯 - <a href="">西域电商网</a></span> -->
+          <!-- <span class="color">客服专线：400-811-5599</span>
+          <span>传真：0533-6294000 邮箱：cuipl@sci99.com</span> -->
         </div>
-        <div class="email-r">
-          为中国争夺大宗商品定价话语权</div>
+        <!-- <div class="email-r">
+          为中国争夺大宗商品定价话语权</div> -->
       </div>
       <div class="footer-list">
         <ul>
@@ -45,7 +46,7 @@ export default {
         '隐私政策',
         '版权声明',
         '合作伙伴'
-      ],
+      ]
     }
   }
 }

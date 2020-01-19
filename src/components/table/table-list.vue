@@ -2,7 +2,7 @@
   <div class="table_list clear">
     <div class="food_nav">
       <span class="pic1"></span>
-      <strong>粮食</strong>
+      <strong>干果购买信息</strong>
       <a v-for="(item,index) of foodNavList"
          :key="index"
          href="">{{item.name}}</a>
@@ -60,11 +60,11 @@ export default {
       timer: '',
       currentKey: '',
       foodNavList: [
-        { name: '玉米', key: 'ym' },
-        { name: '小麦', key: 'xm' },
-        { name: '稻米', key: 'dm' },
-        { name: '高粱', key: 'gl' },
-        { name: '杂粮', key: 'zl' }
+        // { name: '玉米', key: 'ym' },
+        // { name: '小麦', key: 'xm' },
+        // { name: '稻米', key: 'dm' },
+        // { name: '高粱', key: 'gl' },
+        // { name: '杂粮', key: 'zl' }
       ],
       tableNavList: [
         { name: '实时供应', key: 'ssgy', class: 'hover' },

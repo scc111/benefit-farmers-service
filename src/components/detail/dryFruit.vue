@@ -9,8 +9,8 @@
         新疆特产干果
       </div>
       <div class="tel">
-        <img src="./../../assets/tel.jpg"
-             alt="联系电话">
+        <!-- <img src="./../../assets/tel.jpg"
+             alt="联系电话"> -->
       </div>
     </div>
     <div class="title-introduce m-b-20">
