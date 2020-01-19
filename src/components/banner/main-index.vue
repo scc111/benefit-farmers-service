@@ -8,8 +8,13 @@
         <ul>
           <li v-for="(item,index) of verticalNavList"
               :key="index">
-            <span :class="item.class"></span>
-            <router-link :to='item.url||""'>{{item.name}}</router-link>
+            <router-link :to='item.url||""'>
+              <div>
+                <span class="showIcon"
+                      :class="item.class"></span>
+                <span>{{item.name}}</span>
+              </div>
+            </router-link>
           </li>
         </ul>
       </div>
